@@ -1,0 +1,116 @@
+*{
+  box-sizing: inherit
+}
+
+div{
+  /* overflow-x: hidden; /* Hide horizontal scrollbar */
+   /* overflow-y: scroll; /* Add vertical scrollbar */
+
+}
+
+
+html, body {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 10px;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+
+.above{
+  height: 50px;
+}
+
+.containerHead{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.plain{
+  border: 3px solid black;
+  font-size: 8px;
+  width: 125px;
+  height: 50px;
+}
+.name{
+  margin: none;
+  font-size: 50px;
+}
+
+.containerDate{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-top: double;
+  border-bottom: double;
+  font-weight: bold;
+}
+
+
+.containerNews{
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* font-family: 'Josefin Slab', serif; */
+  /* font-family: 'Eczar', serif; */
+  /* this is nice */
+}
+.one, .two, .three, .four, .five, .six, .seven{
+  width: 14.258%;
+  height: 468px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+/* .threeFour {
+  width: 29%;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: green;
+  height: 468px;
+} */
+
+.pic {
+   max-width: 29%;
+   height: auto;
+}
+
+.news{
+  margin: 3px;
+  border-top: none;
+  border-bottom: 1px solid black;
+}
+
+.miniHead {
+  text-align: center;
+  font-weight: bold;
+}
+
+.miniHead2 {
+  font-weight: bold;
+}
+
+
+
+
+/* max-width: if the page is less than an amount wide, then use some other styles */
+/* min-width: if the page is greater than an amount wide, then use some other styles */
+
+@media (max-width: 816px) {
+  /* other styles go here */
+
+  /* .container {
+    flex-direction: column;
+    color: white;
+  }
+  .col {
+    width: auto;
+  }
+
+  h1{
+    font-size: 12vw;
+  }*/
+}
